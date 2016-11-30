@@ -1,15 +1,19 @@
 # ember-cli-waxpoetic
 
-This README outlines the details of collaborating on this Ember addon.
+The shared code between Wax Poetic Ember apps...
+
+* http://www.waxpoeticrecords.com/
+* http://www.thewonderbars.com/
+* http://www.rndnbass.com/
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/waxpoetic/ember-cli-waxpoetic.git` this repository
 * `cd ember-cli-waxpoetic`
 * `npm install`
 * `bower install`
 
-## Running
+## Running dummy app
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -20,8 +24,10 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember test`
 * `ember test --server`
 
-## Building
+## Building the addon
 
 * `ember build`
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+Releases are made to NPM.
