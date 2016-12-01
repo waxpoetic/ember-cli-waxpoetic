@@ -1,2 +1,15 @@
-export function normalizeEntityName() {};
-export function afterInstall() {};
+/*jshint node:true*/
+module.exports = {
+  description: 'Installs configuration for ember-cli-waxpoetic'
+
+  // locals: function(options) {
+  //   // Return custom template variables here.
+  //   return {
+  //     foo: options.entity.options.foo
+  //   };
+  // }
+
+  // afterInstall: function(options) {
+  //   // Perform extra work here.
+  // }
+};
