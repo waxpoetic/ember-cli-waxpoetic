@@ -1,6 +1,6 @@
 /*jshint node:true*/
 module.exports = {
-  description: 'Installs configuration for ember-cli-waxpoetic'
+  description: 'Installs configuration for ember-cli-waxpoetic',
 
   // locals: function(options) {
   //   // Return custom template variables here.
@@ -9,7 +9,6 @@ module.exports = {
   //   };
   // }
 
-  // afterInstall: function(options) {
-  //   // Perform extra work here.
-  // }
+  afterInstall: function(options) {
+  }
 };
