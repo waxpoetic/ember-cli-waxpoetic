@@ -1,5 +1,5 @@
 import DS from 'ember-data';
 
 export default DS.JSONAPIAdapter.extend({
-  host: ENV.APP.host
+  host: 'http://localhost:3000' //ENV.APP.host
 });
