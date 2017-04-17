@@ -20,6 +20,7 @@
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
     "ember-cli-emblem": "0.8.2-beta.2",
+    "ember-cli-neat": "tubbo/ember-cli-neat#ditch-bower-and-neat-2.0",
     "ember-cli-sass": "5.6.0",
     "ember-cli-release": "^0.2.9"
   },
