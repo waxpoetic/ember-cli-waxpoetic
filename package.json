@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-waxpoetic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common code for Wax Poetic sites",
   "keywords": [
     "ember-addon"
@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
-    "ember-cli-bourbon": "^1.2.2",
     "ember-cli-emblem": "0.8.2-beta.2",
     "ember-cli-sass": "5.6.0",
     "ember-cli-release": "^0.2.9"
