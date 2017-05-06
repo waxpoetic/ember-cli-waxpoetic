@@ -24,7 +24,7 @@ export default DS.JSONAPIAdapter.extend({
     if (config.environment === 'production') {
       return 'https://api.waxpoeticrecords.com';
     } else {
-      return 'https://localhost:3000';
+      return 'http://localhost:3000';
     }
   }),
 
