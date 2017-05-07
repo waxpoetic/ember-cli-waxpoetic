@@ -11,30 +11,19 @@ export default DS.JSONAPIAdapter.extend({
   token: null,
 
   // Converts above token configuration into HTTP headers for each request
-  headers: Ember.computed(function() {
-    if (!this.token) {
-      return {};
+  headers: Ember.computed('token, artist', function() {
+    return {
+      'Authorization': this.token,
+      'Artist': this.artist
     }
-
-    return { 'Authorization': this.token };
   }),
 
   // Only use the "real" API when Ember env is set to 'production'
-  host: Ember.computed(function() {
+  host: Ember.computed('config.environment', function() {
     if (config.environment === 'production') {
       return 'https://api.waxpoeticrecords.com';
     } else {
       return 'http://localhost:3000';
     }
-  }),
-
-  // Namespace all requests with /artists/:id if an `artist` is present
-  // on this object.
-  namespace: Ember.computed(function() {
-    if (!this.artist) {
-      return null;
-    }
-
-    return `artists/${this.artist}`;
   })
 });
