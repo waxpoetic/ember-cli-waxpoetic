@@ -13,9 +13,9 @@ export default DS.JSONAPIAdapter.extend({
   // Converts above token configuration into HTTP headers for each request
   headers: Ember.computed('token, artist', function() {
     return {
-      'Authorization': this.token,
-      'Artist': this.artist
-    }
+      'Authorization': this.get('token'),
+      'Artist': this.get('artist')
+    };
   }),
 
   // Only use the "real" API when Ember env is set to 'production'
