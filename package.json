@@ -11,7 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/waxpoetic/ember-cli-waxpoetic.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

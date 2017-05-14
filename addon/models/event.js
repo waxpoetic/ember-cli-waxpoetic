@@ -7,6 +7,7 @@ export default DS.Model.extend({
   openAt: DS.attr('date'),
   ticketUrl: DS.attr('string'),
   facebookUrl: DS.attr('string'),
+  image: DS.attr('string'),
 
   artist: DS.belongsTo('Artist')
 });
